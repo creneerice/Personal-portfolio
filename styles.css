@@ -97,10 +97,35 @@ border-radius: 8px;
   font-size: 36px;
 }
 
-a:not(.email) {
+/* Default link style */
+a {
   text-decoration: none;
+}
+
+/* Navbar links */
+.nav-links a {
+  color: whitesmoke;
+}
+
+.nav-links a:hover {
+  color: orangered;
+}
+
+/* Project links */
+.project-tile a {
   color: #0d512d;
 }
+
+/* Email link */
+.email a {
+  color: whitesmoke;
+}
+
+#contact .btn.special,
+#contact .email a {
+  color: #0d512d;
+}
+
 
 #contact {
 background: #0d512d;
@@ -121,3 +146,8 @@ flex-direction: column;
 }
 
 }
+
+}
+
+}
+
