@@ -73,9 +73,6 @@ border-radius: 10px;
   border-radius: 10px;
 }
 
-#contact a {
-  color: #0d512d;
-}
 
 #projects {
 padding: 60px 20px;
@@ -146,10 +143,6 @@ text-align: center;
 
 .nav-links {
 flex-direction: column;
-}
-
-}
-
 }
 
 }
