@@ -1,0 +1,123 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Candara, sans-serif;
+}
+
+.logo, .name {
+  font-size: 36px;
+}
+
+.career {
+  font-size: 18px;
+}
+
+#navbar {
+position: fixed;
+width: 100%;
+background: #0d512d;
+color: whitesmoke;
+}
+
+.nav-container {
+display: flex;
+justify-content: space-between;
+padding: 15px 30px;
+}
+
+.nav-links {
+display: flex;
+list-style: none;
+font-size: 20px;
+}
+
+.nav-links a {
+color: whitesmoke;
+text-decoration: none;
+padding: 10px;
+font-style: bold;
+}
+
+.nav-links a:hover {
+  color: orangered;
+}
+
+#welcome-section {
+height: 100vh;
+background: rgb(243, 236, 178);
+color: #0d512d;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.btn:not(.special) {
+display: inline-block;
+margin-top: 20px;
+padding: 10px 20px;
+background: #0d512d;
+color: whitesmoke;
+text-decoration: none;
+border-radius: 10px;
+}
+
+.special {
+  background: rgb(243, 236, 178);
+  color: #0d512d;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+
+#projects {
+padding: 60px 20px;
+text-align: center;
+}
+
+.projects-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+margin-top: 30px;
+}
+
+.project-tile {
+background: rgb(243, 236, 178);
+padding: 20px;
+border-radius: 8px;
+}
+
+#title {
+  color: #0d512d;
+  font-size: 36px;
+}
+
+a:not(.email) {
+  text-decoration: none;
+  color: #0d512d;
+}
+
+#contact {
+background: #0d512d;
+color: whitesmoke;
+padding: 60px;
+text-align: center;
+}
+
+@media (max-width: 600px) {
+
+.nav-container {
+flex-direction: column;
+text-align: center;
+}
+
+.nav-links {
+flex-direction: column;
+}
+
+}
